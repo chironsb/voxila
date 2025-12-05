@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+tmp/
+outputs/
+*.wav
+*.mp3
+!voxila.mp3
+*.pth
+*.pkl
+*.index
+checkpoints.zip
+
+# Data (keep structure, ignore content)
+data/vault.txt
+data/embeddings/*.pkl
+data/embeddings/*.index
+processed/
+

@@ -1,0 +1,24 @@
+# Core dependencies
+faster-whisper>=1.0.0
+ollama>=0.1.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+pyaudio>=0.2.11
+soundfile>=0.12.1
+numpy>=1.24.0
+python-dotenv>=1.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+librosa>=0.10.0
+langid>=1.1.6
+inflect>=7.0.0
+unidecode>=1.3.0
+eng-to-ipa>=0.0.2
+pydub>=0.25.0
+whisper-timestamped>=1.8.0
+# TTS>=0.22.0  # Not compatible with Python 3.13, use OpenVoice instead
+
+# Optional: for GPU support (uncomment if you have CUDA)
+# faiss-gpu>=1.7.4
+# faster-whisper with GPU support requires CUDA
+
